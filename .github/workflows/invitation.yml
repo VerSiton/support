@@ -1,0 +1,37 @@
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  automate_invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite on label
+        uses: vj-abigo/invite-on-label@v1.2
+        with:
+          organization: VerSiton
+          label: invitation
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          comment: |
+            
+            ![devstrons](https://raw.githubusercontent.com/devstrons/artwork/master/Stock%20assets/Logo/horizontal-with-devstrons.png)
+
+            Hey there! 👋
+
+            Thanks for requesting an invite! Welcome to VerSiton' 🎉
+            Before going ahead, I would want you to complete the below To-Do list.
+
+            ## Your To-Do List ✔️
+
+            - Accept the invitation sent to you via mail.
+            - Change the appearance of this organization to "Public" from the people list [here](https://github.com/orgs/versiton/people/).
+            - Join our Discord Server [here](https://dsc.gg/versiton).
+
+            - Accept the Rules from `#📕│rules` channel.
+            - Introduce yourself to our community in `🤗│introductions` channel.
+            - Feel free to share your excitement on socials with `#versiton`. You can also tag us using `@versitoncomm`.
+
+            Looking forward to interacting with you in our community! Welcome once again! 🤖
+            
+        env:
+          INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
