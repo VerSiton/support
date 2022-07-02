@@ -1,1 +1,38 @@
-
+name: Invitation to VerSiton GitHub Organization 🚀
+description: I'm willing to become a part of this amazing community.
+title: "Looking forward to getting involved and contributing to the community 🎉"
+labels: [invitation]
+body:
+  - type: input
+    id: first_name
+    attributes:
+      label: First Name
+      placeholder: What should we call you?
+    validations:
+      required: true
+  - type: input
+    id: last_name
+    attributes:
+      label: Last Name
+      placeholder: Let us know your last name.
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord Username (if applicable)
+      description: Your username is normally something like, "VerSiton'" It also comes with an identifier like "#0632". We need both, so "VerSiton'#0632". 
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
+  - type: textarea
+    id: motive
+    attributes:
+      label: Let us understand your motive.
+      description: How did you come to know about VerSiton? Why do you want to join the community? What are the ways you could contribute to the community?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Join our inclusive and welcoming Discord community [here](https://dsc.gg/versiton).
