@@ -10,8 +10,9 @@
 
 <b>Join:</b>
 
-Raise an issue to be a part of our inclusive & diverse community!
+[Raise an issue](https://github.com/VerSiton/support/issues) to be a part of our inclusive & diverse community! 
 </br>
+Follow the [guide](https://github.com/versiton/support/blob/main/CONTRIBUTING.md) to make a valid issue.
 
 <b>Support:</b>
 
