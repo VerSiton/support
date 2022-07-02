@@ -1,1 +1,1 @@
-Thank you for taking the time to contribute. The Steps mentioned below will make you in for organization:
+Thank you for taking the time to contribute. Follow the Steps mentioned below to be an part of our organization:
