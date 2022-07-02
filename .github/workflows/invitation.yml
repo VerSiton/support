@@ -14,8 +14,8 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           comment: |
             
-            ![devstrons](https://raw.githubusercontent.com/devstrons/artwork/master/Stock%20assets/Logo/horizontal-with-devstrons.png)
-
+            ![versiton](https://user-images.githubusercontent.com/84700316/177012280-45d0d814-f52f-4d8c-8af8-4a16a51a917d.png)
+    
             Hey there! 👋
 
             Thanks for requesting an invite! Welcome to VerSiton' 🎉
