@@ -1,5 +1,5 @@
 <p align="center">
-    <img width= 150rem style="margin: 0 0 0 0px" src="https://github.com/VerSiton/.github/blob/main/images/versiton%20logo.png" alt="VerSiton"/>
+    <img width= 150rem style="margin: 0 0 0 0px" src="https://github.com/VerSiton/.github/blob/main/images/VerSiton%20Logo%20Black%20with%20text.png" alt="VerSiton"/>
 </p>
 
 <div align="center">
